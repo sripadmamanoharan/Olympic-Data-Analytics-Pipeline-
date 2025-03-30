@@ -2,7 +2,7 @@
 
 This project demonstrates the development of an end-to-end ETL (Extract, Transform, Load) pipeline using **Microsoft Azure** cloud services and **Tableau Public** to analyze the **Tokyo 2021 Olympic Games** dataset.
 
-## 🚀 Project Overview
+## Project Overview
 
 This pipeline automates the flow of raw Olympic data from a GitHub repository to interactive dashboards. The process includes:
 - Data ingestion using **Azure Data Factory (ADF)**
@@ -13,7 +13,7 @@ This pipeline automates the flow of raw Olympic data from a GitHub repository to
 
 ---
 
-## 🔧 Tools & Technologies
+## Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
@@ -25,7 +25,7 @@ This pipeline automates the flow of raw Olympic data from a GitHub repository to
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 The dataset includes multiple CSV files:
 - `athletes.csv`
@@ -38,7 +38,7 @@ These files contain information on athlete demographics, medal counts, event par
 
 ---
 
-## 📊 Key Dashboards
+## Key Dashboards
 
 - **Medal Distribution by Country**
 - **Athlete Participation by Gender and Discipline**
@@ -50,16 +50,16 @@ Sample dashboard hosted on [Tableau Public](#) *(insert your link once published
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```bash
-📦tokyo-olympic-etl
- ┣ 📁 raw-data
- ┣ 📁 transformed-data
- ┣ 📁 notebooks
- ┃ ┗ 📜 data_transformation.py
+tokyo-olympic-etl
+ ┣  raw-data
+ ┣  transformed-data
+ ┣  notebooks
+ ┃ ┗  data_transformation.py
  ┣ 📁 synapse-scripts
- ┃ ┗ 📜 analysis_queries.sql
+ ┃ ┗  analysis_queries.sql
  ┣ 📁 tableau
- ┃ ┗ 📜 dashboard.twb
- ┗ 📜 README.md
+ ┃ ┗  dashboard.twb
+ ┗  README.md
